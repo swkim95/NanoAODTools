@@ -16,7 +16,7 @@ Originally imported to CMSSW from [cms-nanoAOD/nanoAOD-tools](https://github.com
     cd CMSSW_13_3_0/src
     cmsenv
     git cms-init
-    git clone -b Run2_UL_Skim <this repo>
+    git clone <this repo>
     scram b -j 4
     cd PhysicsTools/NanoAODTools/crab_Run2_UL_Skim
     python3 generate_scripts.py 2018_list.txt ./2018
